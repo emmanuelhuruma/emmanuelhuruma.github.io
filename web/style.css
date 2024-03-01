@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body{
+    font-family: "Poppins",monospace;
+    background:url(imgs/1ea2b6b0-cdf4-4a19-ad38-4b750a9e4dc6.jpeg)  ;
+    background-position: 100vh;
+    background-blend-mode: luminosity;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    
+    
+}
+.card{
+    background-color: white;
+    transform-style: preserve-3d;
+    min-height: 85vh;
+    width: 26rem;
+    border-radius: 30px;
+    padding: 0rem 3rem;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2) ;
+    
+    
+    
+}
+.nuel{  
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.nuel img{
+     width: 8rem;
+     z-index: 2;
+     transition: all 0.75s ease-out;
+    
+}
+.circle{
+    width: 10rem;
+    height: 10rem;
+    background-color:rgb(236, 171, 107);
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.info h2{
+    font-size: 2rem;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 59, 41);
+    transition: all 0.75s ease-out;
+    
+
+}
+.info h3{
+    font-size: 1rem;
+    padding: 1rem 0rem;
+    color:#585858 ; 
+    font-weight: normal;
+    text-align: center;
+    transition: all 0.75s ease-out;
+
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.75s ease-out;
+}
+.social button{
+    padding: 0.5rem 1rem;
+    font-size: 25px;
+    width:55px;
+    background: none;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(3, 59, 41);
+    
+} 
+
+
+.me{
+   margin-top: 3rem;
+   transition: all 0.75s ease-out;
+}
+.me button{
+    width: 100%;
+    padding: 1rem 0rem;
+    background: rgb(236, 171, 107);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: bolder;
+    transition: all 0.75s ease-out;
+}
+
+
